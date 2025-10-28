@@ -1,0 +1,47 @@
+{
+  "id": "interaktivnyj-tom-strada-master-goose",
+  "title": "Интеррактивный Том Страда Master Goose",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Master Goose",
+      "url": "https://boosty.to/ast_vik",
+      "flags": {}
+    }
+  ],
+  "url": "https://boosty.to/ast_vik",
+  "packs": [
+    {
+      "name": "interaktivnyj-tom-strada",
+      "label": "Интеррактивный Том Страда",
+      "path": "packs/interaktivnyj-tom-strada",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
