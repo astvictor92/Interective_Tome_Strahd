@@ -1,6 +1,6 @@
 {
   "id": "interaktivnyj-tom-strada-master-goose",
-  "title": "Интеррактивный Том Страда Master Goose",
+  "title": "Интерактивный Том Страда (Master Goose)",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
@@ -14,11 +14,14 @@
       "flags": {}
     }
   ],
-  "url": "https://boosty.to/ast_vik",
+  "url": "https://github.com/astvictor92/Interactive_Tome_Strahd",
+  "manifest": "https://raw.githubusercontent.com/astvictor92/Interective_Tome_Strahd/main/module.json",
+  "download": "https://github.com/astvictor92/Interective_Tome_Strahd/archive/refs/heads/main.zip",
+  "license": "MIT",
   "packs": [
     {
       "name": "interaktivnyj-tom-strada",
-      "label": "Интеррактивный Том Страда",
+      "label": "Интерактивный Том Страда",
       "path": "packs/interaktivnyj-tom-strada",
       "type": "Adventure",
       "system": "dnd5e",
